@@ -18,6 +18,7 @@
         <mysql.version>5.1.25</mysql.version>
         <commons-dbcp.version>1.4</commons-dbcp.version>
         <org.springframework.version>3.2.3.RELEASE</org.springframework.version>
+        <joda-time.version>2.1</joda-time.version>
     </properties>
 
     <dependencies>
@@ -60,6 +61,13 @@
             <version>4.10</version>
             <scope>test</scope>
         </dependency>
+        
+        <dependency>
+            <groupId>joda-time</groupId>
+            <artifactId>joda-time</artifactId>
+            <version>${joda-time.version}</version>
+        </dependency>
+                
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
